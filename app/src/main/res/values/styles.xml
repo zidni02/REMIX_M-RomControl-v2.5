@@ -16,9 +16,15 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/background_material_light2</item>
+		<item name="colorPrimary">@color/colorPrimary2</item>
+		<item name="pref_stroke">@color/background_material_dark2</item>
+		<item name="pref_text">#232323</item>
+		<item name="preftext2nd">#232323</item>
+		<item name="remix_cov">@drawable/header_blue</item>
+		<item name="solidprefcat">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent2</item>
         <item name="android:dialogTheme">@style/DialogTheme</item>
         <item name="android:alertDialogTheme">@style/DialogTheme</item>
         <item name="navDrawerColorSelector">@color/nav_items_selector_light</item>
@@ -26,10 +32,15 @@
 
     <style name="AppThemeDark" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/background_material_dark2</item>
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="pref_stroke">#f2f9f9</item>
+		<item name="pref_text">#f2f9f9</item>
+		<item name="remix_cov">@drawable/header_red</item>
+		<item name="preftext2nd">#e3e3e3</item>
+		<item name="solidprefcat">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:colorBackground">@color/darkBgColor</item>
         <item name="android:alertDialogTheme">@style/DialogTheme</item>
         <item name="android:dialogTheme">@style/DialogTheme</item>
         <item name="navDrawerColorSelector">@color/nav_items_selector_dark</item>
@@ -60,6 +71,6 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
-    <integer name="default_theme">0</integer>
+    <integer name="default_theme">1</integer>
 
 </resources>

@@ -13,6 +13,7 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
+<attr name="remix_cov" format="reference"/>
     <attr name="navDrawerColorSelector" format="color|reference"/>
     <declare-styleable name="ThumbnailListPreference">
         <attr name="drawableArray" format="reference"/>
@@ -59,4 +60,8 @@
         <attr name="rebootText" format="string"/>
         <attr name="rebootColor" format="color"/>
     </declare-styleable>
+	<attr name="preftext2nd" format="color" />
+	<attr name="pref_text" format="color" />
+	<attr name="pref_stroke" format="color" />
+	<attr name="solidprefcat" format="color" />
 </resources>

@@ -37,7 +37,7 @@
         android:orientation="horizontal"
         android:weightSum="3">
 
-        <com.wubydax.romcontrol.v2.views.RebootView
+        <com.wubydax.romcontrol.v2_5_By_Zidni.views.RebootView
             android:id="@+id/rebootDevice"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"/>
 
-        <com.wubydax.romcontrol.v2.views.RebootView
+        <com.wubydax.romcontrol.v2_5_By_Zidni.views.RebootView
             android:id="@+id/rebootRecovery"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"/>
 
-        <com.wubydax.romcontrol.v2.views.RebootView
+        <com.wubydax.romcontrol.v2_5_By_Zidni.views.RebootView
             android:id="@+id/rebootUI"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

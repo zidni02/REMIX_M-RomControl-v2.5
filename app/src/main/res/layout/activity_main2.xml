@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wubydax.romcontrol.v2_5_By_Zidni.Main2Activity">
+
+    <TextView
+        android:id="@+id/dontext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="I really worked hard on this rom.\nSo if you want to appreciate my work and want me to continue do work like this, then donation is the way. \nSo I will tell you how to donate me."
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dontext"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/cornerbgpref"
+        android:shadowColor="?preftext2nd"
+        android:shadowDx="-5.0"
+        android:shadowDy="5.0"
+        android:shadowRadius="10.0"
+        android:text="For Bangladeshi Users"
+        android:textAllCaps="false"
+        android:textColor="?pref_text"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="16dp"
+        android:text="আমাকে ডোনেট করার জন্য আপনারা নিচে লিখিত বিকাশ নাম্বার একাউন্ট ব্যবহার করতে পারেন।\n\nBkash : 01716737119\n\n\nThis donation should be on your own willng.\nNo one forcing you.\nThank you"
+        android:textSize="17dp" />
+</RelativeLayout>

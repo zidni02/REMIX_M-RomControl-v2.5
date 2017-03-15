@@ -1,18 +1,12 @@
-<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016-->
-    <!--This program is free software: you can redistribute it and/or modify-->
-    <!--it under the terms of the GNU General Public License as published by-->
-    <!--the Free Software Foundation, either version 3 of the License, or-->
-    <!--(at your option) any later version.-->
+<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016--><!--This program is free software: you can redistribute it and/or modify--><!--it under the terms of the GNU General Public License as published by--><!--the Free Software Foundation, either version 3 of the License, or--><!--(at your option) any later version.-->
 
-    <!--This program is distributed in the hope that it will be useful,-->
-    <!--but WITHOUT ANY WARRANTY; without even the implied warranty of-->
-    <!--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the-->
-    <!--GNU General Public License for more details.-->
+<!--This program is distributed in the hope that it will be useful,--><!--but WITHOUT ANY WARRANTY; without even the implied warranty of--><!--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the--><!--GNU General Public License for more details.-->
 
-    <!--You should have received a copy of the GNU General Public License-->
-    <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
+<!--You should have received a copy of the GNU General Public License--><!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Rom Control</string>
+    <string name="app_name">ROM Control</string>
+    <string name="donate">Donate Option</string>
+    <string name="tips">Tips/Tricks</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -63,6 +57,55 @@
     <string name="reboot_now_dialog_button">reboot now</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
-
-    <!--These strings are to set the default fragment to open for the first time the app launches-->
+    <string name="dynamic_status_bar_color_summary">Automatically update background color of the status bar</string>
+    <string name="dynamic_status_bar_color_title">Dynamic Status Bar Color</string>
+    <string name="dynamic_status_bar_filter_summary">Overlay a darkening filter on the status bar</string>
+    <string name="dynamic_status_bar_filter_title">Darkening</string>
+    <string name="dynamic_status_bar_filter_value">The Intensity of the Darkening Filter</string>
+    <string name="dynamic_status_bar_gradient_summary">Overlay a gradient on the status bar</string>
+    <string name="dynamic_status_bar_gradient_title">Gradient</string>
+    <string name="dynamic_status_bar_title">Dynamic Status Bar</string>
+	
+	<string name="reboot_warn">Reboot Device Now</string>
+    <string name="dialog_title">Select Dpi</string>
+    <string name="apply_toast">Screen size %1$s DPI applied</string>
+    <string name="show_current_dpi">DPI Changer\nYour Current DPI is %1$s</string>
+    <string-array name="dpi_dialog_items">
+        <item>480 dpi</item>
+        <item>450 dpi</item>
+        <item>420 dpi</item>
+        <item>390 dpi</item>
+        <item>360 dpi</item>
+        <item>330 dpi</item>
+        <item>320 dpi (default)</item>
+        <item>300 dpi</item>
+        <item>270 dpi</item>
+        <item>240 dpi</item>
+        <item>Custom DPI</item>
+    </string-array>
+    <string-array name="dpi_dialog_values">
+        <item>480</item>
+        <item>450</item>
+        <item>420</item>
+        <item>390</item>
+        <item>360</item>
+        <item>330</item>
+        <item>320</item>
+        <item>300</item>
+        <item>270</item>
+        <item>240</item>
+        <item>Custom DPI</item>
+    </string-array>
+    <string name="executed" translatable="false">###Executed###</string>
+    <string name="custom_dpi_input">Please input value from 240 to 480</string>
+    <string name="text_hint">Input dpi value here</string>
+    <string name="back_to_preset">Preset Values</string>
+    <string name="illegal_value_title">Illegal value entered!</string>
+    <string name="missing_su_title">Could not get root access</string>
+    <string name="missing_su">Your device is either not rooted or the app was denied root permissions.\n\nPlease check your root/su status and try again later.</string>
+    <string name="text_illegal_value">DPI on this device cannot be set to %1$s\n\nPlease go back and set value from 240 to 480.\n\nThank you!</string>
+    <string name="back_button_custom">Back to Custom DPI</string>
+    <string name="exit">Exit</string>
+    <string name="apply">Apply</string>
+    <string name="gaining_root">Acquiring root access. Please wait...</string>
 </resources>
